@@ -1,0 +1,25 @@
+{
+  "name": "api_agenda_mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cluster": "NODE_ENV=production port=8080",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./bin/server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "consign": "^0.1.6",
+    "cors": "^2.8.4",
+    "crypto": "^1.0.1",
+    "express": "^4.16.4",
+    "helmet": "^3.14.0",
+    "mongoose": "^5.3.9",
+    "mysql": "^2.16.0",
+    "normalize-port": "^1.0.0"
+  }
+}
